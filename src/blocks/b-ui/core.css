@@ -1,0 +1,19 @@
+
+/* b-ui */
+.b-ui {
+
+    }
+
+/* Margin 40 */
+.b-ui.margin_40 {
+    margin-bottom: 40px;
+    }
+
+.b-ui.margin_30 {
+    margin-bottom: 30px;
+    }
+
+
+.b-ui.align_center {
+    text-align: center;
+    }

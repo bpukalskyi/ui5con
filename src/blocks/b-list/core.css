@@ -1,0 +1,7 @@
+.b-list {
+    display: flex;
+    justify-content: space-between
+    }
+    .b-list__item {
+        text-align: center;
+        }

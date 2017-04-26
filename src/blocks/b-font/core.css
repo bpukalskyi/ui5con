@@ -1,0 +1,37 @@
+
+/* b-font */
+.b-font {
+
+    }
+
+/* Size 13 */
+.b-font.size_13 {
+    font-size: 13px;
+    }
+/* Size 15 */
+.b-font.size_15 {
+    font-size: 15px;
+    }
+/* Size 18 */
+.b-font.size_18 {
+    font-size: 18px;
+    }
+/* Size 24 */
+.b-font.size_24 {
+    font-size: 24px;
+    }
+/* Size 36 */
+.b-font.size_36 {
+    font-size: 36px;
+    }
+
+.b-font.color_yellow {
+    color: #ffa242;
+    }
+
+.b-font.weight_light {
+    font-weight: 300;
+    }
+.b-font.weight_bold {
+    font-weight: 700;
+    }

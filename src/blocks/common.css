@@ -1,0 +1,23 @@
+body {
+    font: 13px/1.428 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #161413;
+    background: #fff;
+    text-align: left;
+    cursor: default;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: scroll;
+    }
+
+a {
+    color: #ff5743;
+    text-decoration: underline;
+    }
+    a:hover {
+        color: #ffa242;
+        }
+
+* {
+    box-sizing: border-box;
+    }

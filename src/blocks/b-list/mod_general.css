@@ -1,0 +1,12 @@
+.b-list.mod_general .b-list__item {
+    min-width: 15%;
+    }
+
+.b-list.mod_general .b-list__icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    }
+.b-list.mod_general .b-list__icon path {
+        fill: #ffa242;
+        }
