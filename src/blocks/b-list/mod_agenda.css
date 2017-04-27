@@ -1,0 +1,29 @@
+.b-list.mod_agenda {
+    flex-wrap: wrap;
+    }
+    .b-list.mod_agenda .b-list__item {
+        position: relative;
+        width: 19%;
+        padding: 25px;
+        text-align: left;
+        min-height: 230px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        }
+        .b-list.mod_agenda .b-list__item:before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: 4px solid #2f2f32;
+            content: '';
+            transition: all 0.25s ease-out;
+            }
+            .b-list.mod_agenda .b-list__item:hover:before {
+                top: -3px;
+                left: -3px;
+                right: -3px;
+                bottom: -3px;
+                border-color: #525257;
+                }
