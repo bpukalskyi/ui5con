@@ -4,7 +4,7 @@
     min-width: 980px;
     position: relative;
     overflow: hidden;
-    background: url('backgroud.jpg') no-repeat 50% 50%;
+    background: url('background.jpg') no-repeat 50% 50%;
     background-size: cover;
     }
     .b-header:before {
@@ -42,6 +42,7 @@
         .b-header__arrow path,
         .b-header__arrow polygon {
             fill: #ff5743;
+            transition: fill .3s ease;
             }
         .b-header__register:hover + .b-header__arrow path,
         .b-header__register:hover + .b-header__arrow polygon {

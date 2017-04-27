@@ -13,6 +13,7 @@ body {
 a {
     color: #ff5743;
     text-decoration: underline;
+    transition: color .3s ease;
     }
     a:hover {
         color: #ffa242;

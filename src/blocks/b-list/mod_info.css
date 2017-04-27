@@ -1,3 +1,8 @@
 .b-list.mod_info .b-list__item {
     width: 30%;
     }
+    .b-list.mod_info .b-list__icon {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+        }
