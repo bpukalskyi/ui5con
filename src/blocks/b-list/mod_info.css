@@ -1,8 +1,25 @@
+.b-list.mod_info {
+    }
+
 .b-list.mod_info .b-list__item {
     width: 30%;
+    margin-bottom: 50px;
     }
     .b-list.mod_info .b-list__icon {
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin-bottom: 15px;
         }
+
+
+@media (max-width: 980px) {
+    .b-list.mod_info .b-list__item {
+        width: 47%;
+        }
+}
+
+@media (max-width: 700px) {
+    .b-list.mod_info .b-list__item {
+        width: 100%;
+        }
+}

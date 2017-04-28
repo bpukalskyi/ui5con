@@ -8,6 +8,9 @@
 .b-font.size_13 {
     font-size: 13px;
     }
+.b-font.size_14 {
+    font-size: 14px;
+    }
 /* Size 15 */
 .b-font.size_15 {
     font-size: 15px;
@@ -23,6 +26,14 @@
 /* Size 36 */
 .b-font.size_36 {
     font-size: 36px;
+    }
+/* Size 38 */
+.b-font.size_38 {
+    font-size: 38px;
+    }
+/* Size 42 */
+.b-font.size_42 {
+    font-size: 42px;
     }
 
 .b-font.color_yellow {

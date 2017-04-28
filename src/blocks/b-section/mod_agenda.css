@@ -1,6 +1,19 @@
 /* mod_agenda */
 .b-section.mod_agenda {
-    margin-top: 95px;
+    margin-top: 45px;
     padding: 70px 0;
     background-color: #19181e;
     }
+
+
+@media (max-width: 980px) {
+    .b-section.mod_agenda {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 550px) {
+    .b-section.mod_agenda {
+        padding: 40px 0;
+    }
+}

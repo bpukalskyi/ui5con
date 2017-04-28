@@ -52,7 +52,7 @@
         margin-top: 193px;
         height: 260px;
         background: rgba(7, 7, 10, .5);
-        padding-top: 45px;
+        padding-top: 65px;
         }
 
 
@@ -66,7 +66,7 @@
         .b-header__footer {
             margin-top: 123px;
             height: 220px;
-            padding-top: 25px;
+            padding-top: 45px;
             }
 }
 
@@ -82,7 +82,7 @@
         .b-header__footer {
             margin-top: 71px;
             height: 185px;
-            padding-top: 15px;
+            padding-top: 35px;
             }
         .b-header__delimiter {
             width: 70px;
@@ -107,7 +107,7 @@
         .b-header__footer {
             margin-top: 30px;
             height: 340px;
-            padding-top: 15px;
+            padding-top: 35px;
             }
         .b-header__arrow {
             width: 20px;
@@ -127,7 +127,6 @@
         .b-header__footer {
             margin-top: 30px;
             height: 340px;
-            padding-top: 15px;
             }
         .b-header__delimiter {
             width: 60px;
