@@ -1,7 +1,7 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-const isDebug = !process.argv.includes('--release');
+const isDebug = process.env.NODE_ENV !== "production";
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 
 const config = {
@@ -47,6 +47,27 @@ const config = {
 
     plugins: [
         new ExtractTextPlugin('styles.css'),
+
+        ...isDebug ? [] : [
+            // Minimize all JavaScript output of chunks
+            // https://github.com/mishoo/UglifyJS2#compressor-options
+            new webpack.optimize.UglifyJsPlugin({
+                sourceMap: true,
+                compress: {
+                    screw_ie8: true,
+                    warnings: false,
+                    unused: true,
+                    dead_code: true,
+                },
+                mangle: {
+                    screw_ie8: true,
+                },
+                output: {
+                    comments: false,
+                    screw_ie8: true,
+                },
+            }),
+        ],
     ],
 
     target: 'web',

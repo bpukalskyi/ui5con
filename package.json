@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --config configs/webpack.config.js --port 3030",
-    "build": "webpack --display-error-details --config configs/webpack.config.js"
+    "build": "webpack --display-error-details -p --config configs/webpack.config.js"
   },
   "dependencies": {},
   "devDependencies": {

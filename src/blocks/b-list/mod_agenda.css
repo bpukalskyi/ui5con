@@ -1,5 +1,4 @@
 .b-list.mod_agenda {
-    flex-wrap: wrap;
     justify-content: flex-start;
     }
     .b-list.mod_agenda .b-list__item {

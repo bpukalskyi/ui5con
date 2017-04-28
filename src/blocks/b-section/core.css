@@ -2,7 +2,12 @@
     width: 100%;
     }
     .b-section-h {
-        width: 1360px;
-        margin: 0 auto;
         position: relative;
         }
+
+@media (min-width: 1360px) {
+    .b-section-h {
+        width: 1360px;
+        margin: 0 auto;
+        }
+}

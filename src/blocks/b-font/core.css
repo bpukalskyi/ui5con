@@ -41,3 +41,22 @@
 .b-font.weight_bold {
     font-weight: 700;
     }
+
+
+@media (max-width: 980px) {
+    .b-font.size_36 {
+        font-size: 30px;
+        }
+}
+
+@media (max-width: 600px) {
+    .b-font.size_36 {
+        font-size: 26px;
+        }
+}
+
+@media (max-width: 390px) {
+    .b-font.size_36 {
+        font-size: 24px;
+        }
+}
