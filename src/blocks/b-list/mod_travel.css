@@ -1,0 +1,22 @@
+.b-list.mod_travel {
+    flex-direction: row;
+    }
+.b-list.mod_travel .b-list__item {
+    text-align: left;
+    width: auto;
+    flex: 1;
+    }
+    .b-list.mod_travel .b-list__item:first-child {
+        flex: 0 0 280px;
+        margin-right: 150px;
+        }
+        .b-list.mod_travel .b-list__item:first-child
+
+
+
+@media (max-width: 700px) {
+}
+
+
+@media (max-width: 600px) {
+}
