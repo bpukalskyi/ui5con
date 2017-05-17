@@ -130,3 +130,67 @@ a {
 a:hover {
     color: #ffa242;
 }
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+.flex-item {
+    flex: 1 0 auto;
+}
+.collapsed {
+    height: 1000px;
+    overflow: hidden;
+    transition: height 0.15s ease-out;
+}
+.expanded {
+    height: auto;
+    transition: height 0.15s ease-in;
+}
+.button-hidden {
+    display: none;
+}
+
+.b-list.mod_info.eveningSection .b-list__item.icon .b-list__icon {
+    width: 104px;
+    height: 104px;
+}
+.b-list.mod_info.eveningSection .b-list__item.icon {
+    margin-bottom: 0px;
+}
+
+@media (min-width: 700px) {
+    .b-list.mod_info.eveningSection {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .b-list.mod_info.eveningSection .b-list__item.icon {
+        width: 20%;
+    }
+    .b-list.mod_info.eveningSection .b-list__item.icon .b-list__icon {
+        margin-bottom: 0px;
+    }
+    .b-list.mod_info.eveningSection .b-list__item.description {
+        width: 80%;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+}
+.b-list.mod_info.eveningSection .b-list__item.description .b-font.size_18.margin{
+    margin-bottom: 10px;
+}
+.eveningSectionTitle {
+    margin-top: 30px;
+}
+#hideButton {
+    margin: 20px auto 0 auto;
+    width:50px;
+}
+#hideButton.more #lessButton{
+    display: none;
+}
+#hideButton.less #moreButton{
+    display: none;
+}
